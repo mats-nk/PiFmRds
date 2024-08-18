@@ -26,9 +26,9 @@ Clone the source repository and run `make` in the `src` directory:
 
 ```bash
 git clone https://github.com/DABodr/PiFmRds.git
-cd PiFmRds/src
-make clean
-make
+cd PiFmRds
+chmod +x ./install.sh
+./install.sh
 ```
 
 **Important.** If `make` reports any error, then no `pi_fm_rds` executable file is generated (and vice versa). So any error must be fixed before you can proceed to the next steps. `make` may fail if any required library is missing (see above), or it could be a bug on a specific/newer distribution. In this case, please file a bug.
