@@ -6,8 +6,9 @@ RADIO_URL="http://icecast.radiofrance.fr/fipelectro-hifi.aac"
 # Fréquence de transmission (en MHz, ex: 100.0 pour 100.0 MHz)
 FREQUENCY=100.0
 
-# Chemin absolu vers PiFmRds
-PIFMRDS_PATH="/home/rom/dab/PiFmRds/src/pi_fm_rds"
+# Nom d'utilisateur pour définir le chemin absolu
+USER_HOME="/home/$1"
+PIFMRDS_PATH="$USER_HOME/PiFmRds/src/pi_fm_rds"
 
 # Code RDS - Nom de la station, texte RDS, et code PI
 STATION_NAME="MyRadio"
