@@ -1,13 +1,7 @@
 #!/bin/bash
 
-# Vérifier si l'utilisateur a fourni un nom d'utilisateur
-if [ -z "$1" ]; then
-  echo "Usage: $0 <nom_utilisateur>"
-  exit 1
-fi
-
-# Définir le répertoire d'installation
-USER_HOME="/home/$1"
+# Récupérer le nom d'utilisateur courant
+USER_HOME="/home/$(whoami)"
 PIFMRDS_DIR="$USER_HOME/PiFmRds"
 
 # Installer les dépendances
