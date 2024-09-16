@@ -1,19 +1,19 @@
 #!/bin/bash
 
 # URL de la radio en ligne
-RADIO_URL="https://streams.radiobob.de/rockparty/mp3-192/"
+RADIO_URL="http://radionova.ice.infomaniak.ch/radionova-high.mp3"
 
 # Fréquence de transmission (en MHz, ex: 100.0 pour 100.0 MHz)
-FREQUENCY=100.0
+FREQUENCY=107.5
 
 # Récupérer le nom d'utilisateur courant
 USER_HOME="/home/$(whoami)"
 PIFMRDS_PATH="$USER_HOME/PiFmRds/src/pi_fm_rds"
 
 # Code RDS - Nom de la station, texte RDS, et code PI
-STATION_NAME="MyRadio"
-RDS_TEXT="Bienvenue sur MyRadio!"
-PI_CODE="0x1234"
+STATION_NAME="  NOVA"
+RDS_TEXT="Le Grand Mix !"
+PI_CODE="0xF22A"
 
 # Couleur marron en gras pour les messages d'annonce
 BROWN="\e[33;1m"
