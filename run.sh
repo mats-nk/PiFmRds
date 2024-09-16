@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # URL de la radio en ligne
-RADIO_URL="http://icecast.radiofrance.fr/fipelectro-hifi.aac"
+RADIO_URL="https://streams.radiobob.de/rockparty/mp3-192/"
 
 # Fréquence de transmission (en MHz, ex: 100.0 pour 100.0 MHz)
 FREQUENCY=100.0
